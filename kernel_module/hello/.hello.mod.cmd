@@ -1,0 +1,1 @@
+cmd_/home/himanshu/Documents/practice_git/kernel_module/hello/hello.mod := { echo  /home/himanshu/Documents/practice_git/kernel_module/hello/hello.o;  echo; } > /home/himanshu/Documents/practice_git/kernel_module/hello/hello.mod

@@ -1,0 +1,1 @@
+cmd_/home/himanshu/Documents/practice_git/kernel_module/hello/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/himanshu/Documents/practice_git/kernel_module/hello/hello.ko /home/himanshu/Documents/practice_git/kernel_module/hello/hello.o /home/himanshu/Documents/practice_git/kernel_module/hello/hello.mod.o;  true
