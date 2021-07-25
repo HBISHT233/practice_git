@@ -4,7 +4,7 @@
 
 static int __init hello_init(void)
 {
-	pr_info("hello wold");
+	pr_info("hello wold\n");
 	return 0;
 }
 
