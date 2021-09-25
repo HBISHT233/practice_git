@@ -1,0 +1,1 @@
+cmd_/home/himanshu/Documents/practice_git/udemy_course_device_driver/3_devicedriver/Module.symvers := sed 's/ko$$/o/' /home/himanshu/Documents/practice_git/udemy_course_device_driver/3_devicedriver/modules.order | scripts/mod/modpost -m -a   -o /home/himanshu/Documents/practice_git/udemy_course_device_driver/3_devicedriver/Module.symvers -e -i Module.symvers   -T -

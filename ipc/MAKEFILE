@@ -1,0 +1,12 @@
+TARGETS = mutex_count
+cc_c = $(CROSS_TOOL)gcc
+
+CFLAGS = -wall -g-std=c99 -werror -pthread
+
+all: clean $(TARGETS)
+
+$(TARGETS):
+	$(CC_C) $(CFLAGS) %@.c -o $@
+
+clean:
+	rm -f $(TARGETS)
